@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="This is TestNG Basics Concept">
+
+	<test name="TestNG Basics ">
+	<groups>
+	<run>
+	<include name="smokeTest"></include>
+	</run>
+	
+	</groups>
+		<classes>
+			<class name="testNG.basics.TestNGAnnotations"></class>
+		</classes>
+	</test>
+</suite>
