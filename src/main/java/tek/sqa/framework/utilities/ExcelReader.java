@@ -19,7 +19,7 @@ import static tek.sqa.framework.utilities.FileUtilities.getFileInputSteam;
 public class ExcelReader {
 
     public static Sheet getExcelSheet(String filePath, int sheetIndex) throws IOException {
-        ExtentTestManager.getTest().info("Reading Excel Sheet in location " + filePath);
+       // ExtentTestManager.getTest().info("Reading Excel Sheet in location " + filePath);
         FileInputStream fileInputSteam = getFileInputSteam(filePath);
         Workbook workbook = new XSSFWorkbook(fileInputSteam);
         Sheet sheet = workbook.getSheetAt(sheetIndex);
