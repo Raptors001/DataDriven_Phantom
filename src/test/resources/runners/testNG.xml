@@ -5,8 +5,10 @@
 		<listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter" />
 	</listeners>
 	<test name="Retail Test">
+	<parameter name="emailValue" value="shaiq.ahmad@tekschool.us"></parameter>
+	<parameter name="passwordValue" value="Test@12345"></parameter>
 		<classes>
-			<class name=""></class>
+			<class name="tek.sqa.framework.tests.RetailTest"></class>
 		</classes>
 	</test>
 </suite>

@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Parallel Execution Suite" >
-	<test name="Parallel Execution Test" parallel="methods" thread-count="">
+	<test name="Parallel Execution Test" parallel="methods" thread-count="3">
 		<classes>
 			<class name="testNG.basics.ParallelExecution"></class>
 		</classes>

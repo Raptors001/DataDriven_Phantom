@@ -3,7 +3,7 @@
     <configuration>
         <!-- report theme -->
         <!-- standard, dark -->
-        <theme>standard</theme>
+        <theme>dark</theme>
 
         <!-- document encoding -->
         <!-- defaults to UTF-8 -->
@@ -20,7 +20,7 @@
         <documentTitle>Tek School TestNG Framework</documentTitle>
 
         <!-- report name - displayed at top-nav -->
-        <reportName>Examples</reportName>
+        <reportName>class Phantom TestNG Lessson</reportName>
 
         <!-- create a report with all artifacts stored locally -->
         <enableOfflineMode>true</enableOfflineMode>
